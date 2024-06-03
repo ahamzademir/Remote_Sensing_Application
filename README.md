@@ -1,9 +1,12 @@
-Project Summary
+--Project Summary
+
 The project involves the implementation of a networked system consisting of two sensors (a temperature
 sensor and a humidity sensor), a gateway, and a server. The sensors generate values periodically and send
 them to the gateway, which then forwards the data to the server. The server stores the received data and
 provides a web interface for accessing it.
-Solution Approach
+
+--Solution Approach
+
 The system was implemented using Java and socket programming. Each component of the system (the
 sensors, the gateway, and the server) was implemented as a separate Java class. The temperature sensor
 and the gateway communicate via TCP, while the humidity sensor and the gateway communicate via
